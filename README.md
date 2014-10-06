@@ -87,7 +87,7 @@ Note: Be sure to research how you are going to attach params to your `request`.
 
 ### Release 1 
 
-
+Now, combine the ability to post tweets and get the most recent tweets from a user (aka the previous challenge). After a user tweets, he or she should be able to view an updated 'twitter feed'.
 
 
 ## Resources
