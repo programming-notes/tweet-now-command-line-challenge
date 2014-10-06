@@ -13,14 +13,14 @@ class OAuthClient
   def post(url)
     # create the HTTP post request
 
-    request = # fill this in
+    #request = ** fill this in
     #hint - this request is going to need some form data (aka your tweet)
 
     # set the Authorization Header using the oauth helper
     request["Authorization"] = oauth_header(request)
 
     # connect to the server and send the request
-    response = # fill this in
+    #response = ** fill this in
 
     return response
   end
