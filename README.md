@@ -2,14 +2,21 @@
 
 ## Learning Competencies
 
-* Using Net::HTTP to inteact with an HTTP API
-* Authenticating HTTP Requests using the OAuth Authorization header
+* Use Net::HTTP to send data to a third-party API
+* Use Authorization header to authenticate using OAuth
+* Use the MVC pattern in web applications with proper allocation of code and responsibilities to each layer
 
 ## Summary
 
 In this challenge we'll be learning more about HTTP, by using it to speak to the Twitter API. We'll create a command line application that lets you tweet from the command line.
 
 ## Releases
+
+### Release 0 - Look over the skeleton
+
+Take a moment to look at the code we've given you. Think about what each part does. Figure out how to create migrations, how to run migrations, how to run the app.
+
+Hint: Start in `tweet_now.rb`
 
 ### Release 1 - Tweet It!
 
