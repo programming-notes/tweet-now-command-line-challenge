@@ -1,27 +1,17 @@
-# Tweet Now! 1: Single-User
+# Tweet Now! Command Line Interface
 
 ## Learning Competencies
 
-* Incorporate third-party gems into a web application using bundler
-* Extend the Sinatra application environment with a ruby gem (OAuth)
-* Use a third-party API
-* Write custom event handlers in JavaScript and jQuery
-* Implement synchronous / asynchronous requests in a web application
-
+* Using Net::HTTP to inteact with an HTTP API
+* Authenticating HTTP Requests using the OAuth Authorization header
 
 ## Summary
 
-This is the first challenge in a sequence of challenges you'll come upon next week, leading up to building an application to schedule future tweets and deploying it to Heroku.
-
-To start, we'll create a command line application that lets a single user tweet. We'll hard-code the user from which we'll be tweeting. [Later we'll add support for logging in via Twitter](../../../tweet-now-2-multi-user-challenge) so that anyone can tweet. After that, we'll add the ability to [schedule tweets into the future](../../../tweet-later-challenge).
-
-You'll learn about background jobs, tasks queues, and scheduled tasks over these challenges &mdash; three fundamental components to building a usable, scalable web application.  You'll also learn some sysadmin voodoo to manage development and production credentials, and a bit of the inner workings of OAuth.
-
-All in a day's work, right?
+In this challenge we'll be learning more about HTTP, by using it to speak to the Twitter API. We'll create a command line application that lets you tweet from the command line.
 
 ## Releases
 
-### Release 0 - Tweet It!
+### Release 1 - Tweet It!
 
 Create an interactive command line application that tweets (actually sends and posts the Tweet on Twitter) whatever text the user inputs. 
 
@@ -85,19 +75,7 @@ You'll need to fill in the `#post` method so that it uses the `url` to make `POS
 
 Note: Be sure to research how you are going to attach params to your `request`.
 
-### Release 1 
+### Release 2
 
 Now, combine the ability to post tweets and get the most recent tweets from a user (aka the previous challenge). After a user tweets, he or she should be able to view an updated 'twitter feed'.
 
-
-## Resources
-
-* [jQuery `.on()` Documentation](http://api.jquery.com/on/) - intercept browser events with jQuery
-* [Enabling / Disabling Elements With jQuery](http://learn.jquery.com/using-jquery-core/faq/how-do-i-disable-enable-a-form-element/)
-* [Tweet Now! 2: Multi-User Challenge](../../../tweet-now-2-multi-user-challenge)
-* [Tweet Later Challenge](../../../tweet-later-challenge)
-
-[jQuery `.on()` Documentation]:http://api.jquery.com/on/
-[Enabling / Disabling Elements With jQuery]:http://jquery-howto.blogspot.com/2008/12/how-to-disableenable-element-with.html
-[Tweet Now! 2: Multi-User Challenge]:https://github.com/Devbootcamp/tweet-now-2-multi-user-challenge
-[Tweet Later Challenge]:https://github.com/Devbootcamp/tweet-later-challenge
